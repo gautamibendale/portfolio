@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <img src="Logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-text">
+            <p>Software Devloper</p>
+            <h1>Hi,I'm<span> Gautami Bendale</span><br> from India.</h1>
+        </div>
+      </div>  
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="photo1.png" alt="">
+                </div>
+                <div class="col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, molestias voluptatibus. Expedita quis beatae quasi earum sapiente, provident, consequuntur ab quam autem ipsum qui! Perferendis praesentium ipsa consequatur accusamus dolor!</p>
+                <div class="titles">
+                    <p class="links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="links" onclick="opentab('experience')">Experience</p>
+                    <p class="links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active" id="skills">
+                    <ul>
+                        <li><span>HTML|CSS|JS</span><br>Designing Web interface</li>
+                        <li><span>JAVA</span><br>For Android application</li>
+                        <li><span>SQL</span><br>To communicate with DB</li>
+                        <li><span>MS Office</span><br>To complete common tasks on a computer.</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul> 
+                        <li><span>Ongoing Intership</span><br>Prodigy Infotech|Working with HTML,CSS,JS.Able to create responsive webpage.</li>
+                        <li><span>Completed Internship</span><br>Tech ADR IT Solutions Pvt Ltd where learned the basics of JAVA programming language,which is essential for developing Android application.</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-Current</span><br>EXTC Engineering at FCRIT|6.8</li>
+                        <li><span>2019-2021</span><br>12th from MJ College|89.33</li>
+                        <li><span>2019</span><br>Kashinath Public School|89.02</li>
+                    </ul>
+                </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------Servicesv----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam facilis nemo ex voluptatem nisi necessitatibus fuga temporibus, molestiae placeat quaerat suscipit? Modi enim fuga error eum voluptate possimus aspernatur earum.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam facilis nemo ex voluptatem nisi necessitatibus fuga temporibus, molestiae placeat quaerat suscipit? Modi enim fuga error eum voluptate possimus aspernatur earum.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>SQL Developer</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam facilis nemo ex voluptatem nisi necessitatibus fuga temporibus, molestiae placeat quaerat suscipit? Modi enim fuga error eum voluptate possimus aspernatur earum.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------portfolio---------->
+  
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>  
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.png">
+                    <div class="layer">
+                        <h3>Amazon clone</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus reiciendis eos voluptas maiores, odit tenetur? Aliquam deleniti facilis sed qui pariatur labore consectetur ab at mollitia. Mollitia vitae iusto a.</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.png">
+                    <div class="layer">
+                        <h3>IOT based soil water moisture control using blynk</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus reiciendis eos voluptas maiores, odit tenetur? Aliquam deleniti facilis sed qui pariatur labore consectetur ab at mollitia. Mollitia vitae iusto a.</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.png">
+                    <div class="layer">
+                        <h3>IOT based Theft detection using python library</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus reiciendis eos voluptas maiores, odit tenetur? Aliquam deleniti facilis sed qui pariatur labore consectetur ab at mollitia. Mollitia vitae iusto a.</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me </h1>
+                <p>contact@example.com</p>
+                <p>987654321</p>
+            </div>
+           
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Mess" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Gautami.Made with love:)</p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){ 
+                tabcontent.classList.remove("active");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active");
+        }
+
+    </script>
+ 
+</body>
+</html>
